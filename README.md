@@ -2,8 +2,10 @@
 
 ### Project Overview
 
-This study explores into Gender and Age Determination, utilizing the UTK Faces Dataset. This dataset offers precise annotations for age, gender, and ethnicity, extending
-the scope beyond traditional facial recognition. The primary goal is to construct a robust model capable of efficiently analyzing facial attributes to predict an individual's gender and age. The UTK Faces Dataset's wealth of diversity in terms of ages, ethnicities, and genders ensures broad learning for demographic precision and a strong importance on fairness.
+This study explores Gender and Age Determination, utilizing the UTK Faces Dataset. In this framework, the study explored the effectiveness of PCA for
+dimensionality reduction and feature extraction. The outcome was a multi-output concurrent neural network capable of simultaneously predicting gender and age for test images. In conclusion,
+the study found that dimensionality reduction with PCA retained a significant amount of essential information in the data. Gender classification achieved a remarkable accuracy rate,
+effectively distinguishing between male and female individuals. The age regression model exhibited good accuracy with a mean absolute error MAE measure, although challenges remained in estimating ages for very young and old individuals.
 
 ### Aim
 - To develop models for gender classification and age regression using deep learning techniques on the UTK Faces dataset.
