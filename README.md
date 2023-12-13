@@ -14,7 +14,7 @@ Objective
 - Explored the utility of PCA for dimensionality reduction and feature extraction.
 - Created a multi-output concurrent neural network that simultaneously predicted gender and age for test images with high precision.
 
-### Pipeline:
+### Pipeline
 
 The process began with the importation of the necessary libraries. Subsequently, data exploration was undertaken to gain insights into the dataset, including its structure and characteristics.
 Data preprocessing followed, involving the encoding of categorical variables and the division of the data into training and testing sets. Feature extraction was performed to identify and select
